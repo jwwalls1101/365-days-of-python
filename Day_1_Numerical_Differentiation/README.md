@@ -7,10 +7,10 @@ Develop a Python program to approximate the first derivative of a function using
 Two finite-difference methods were implemented:
 
 Forward Difference:
-[f'(x) \approx \frac{f(x+h)+f(x)}{h}]
+$$f'(x) \approx \frac{f(x+h)+f(x)}{h}$$
 
 Central Difference:
-[f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}]
+$$f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}$$
 
 ## Implementation
 The program uses Python functions to approximate derivatives and compare them against their analytical solution. 
