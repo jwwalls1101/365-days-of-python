@@ -15,7 +15,7 @@ $$f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}$$
 ## Implementation
 The program uses Python functions to approximate derivatives and compare them against their analytical solution. 
 
-It evaluates 100 logarithmically spaced step sizes between (10^{-1}) and (10^{-12}) and identifies the step sizes that produce the smallest absolute error.
+It evaluates 100 logarithmically spaced step sizes between $$10^{-1}$$ and $$10^{-12}$$ and identifies the step sizes that produce the smallest absolute error.
 
 ## Results
 Central Difference produces more accurate approximations than Forward Difference because it has second-order truncation error. Both methods experience increased floating-point roundoff error at very small step sizes.
